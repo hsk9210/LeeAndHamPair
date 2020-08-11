@@ -1,0 +1,31 @@
+#Twittler {
+    background-color: #C7DAEA;
+    border-color: #9DC0E1;
+    border: thick;
+    box-shadow: aqua;
+
+    color: #FFFFFF; 
+    text-decoration: black; 
+    font-size: large;
+    text-align: center;
+}
+#TweetWindow {
+    background-color: #8BB2D6;
+    height: auto;
+    padding: 15px;
+    margin-top: 30px;
+}
+#hairOfCommentWindow {
+    background-color: #3357AD;
+    height: 50px;
+    margin-top: 30px;
+}
+#check_new_tweet {
+    margin-left: 30px;
+    margin-top: 15px;
+
+}
+#commentWindow {
+    background-color: #D4EAF6;
+    height: auto;
+}
