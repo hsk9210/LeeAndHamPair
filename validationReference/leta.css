@@ -1,0 +1,13 @@
+label {
+    display: block;
+    margin: 5px;
+  }
+  #msg {
+    background-color: silver;
+    padding: 10px;
+    border: 1px solid gray;
+  }
+  label > div:first-child {
+    display: inline-block;
+    width: 160px;
+  }
