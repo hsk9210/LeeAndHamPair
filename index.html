@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <title>twittler</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+  <script src="data.js"></script>
+</head>
+
+<body>
+<!-- 타이틀 -->
+<div id = "Twittler">Twittler</div>
+<!-- 입력창 -->
+<div id = "TweetWindow">
+    <div>UserName</div>
+    <input id = "UserName" type="text">
+    <div>Comment</div>
+    <textarea id = "Comment" name="Comment"></textarea>
+    <div><button id = "Tweet">Tweet!</button></div>
+</div>
+<!-- 댓글창 -->
+<div id = "hairOfCommentWindow">
+    <button id = "check_new_tweet">check new tweet</button>
+</div>
+<div id = "commentWindow">
+    <li>
+      <template class = "eachComment">
+        <ul>
+          <span class = "user"></span>
+          <div class = "message"></span>
+          <span class = "created_at"></span>
+        </ul>
+      </template>
+    </li>
+</div>  
+  
+
+  <!-- 여기에 HTML 구조를 작성하세요. 아래 코드는 예제이며, 얼마든지 바꿀 수 있습니다
+  <div id="greeting">twittler</div>
+  <div id="test"></div> -->
+
+  <script src="script.js"></script>
+</body>
+</html>

@@ -1,6 +1,8 @@
 <!Doctype html>
 <head>
+    <meta name = "viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" href="twittler.css" />
+
 </head>
 
 <body>
@@ -9,9 +11,9 @@
     <!-- 입력창 -->
     <div id = "TweetWindow">
         <div>UserName</div>
-        <input type="text">
+        <input id = "UserName" type="text">
         <div>Comment</div>
-        <textarea name="Comment">tweet을 입력해 주세요.</textarea>
+        <textarea id = "Comment" name="Comment"></textarea>
         <div><button id = "Tweet">Tweet!</button></div>
     </div>
     <!-- 댓글창 -->
@@ -27,4 +29,5 @@
             </ul>
         </li>
     </div>
+    <script src = "twittler.js"></script>
 </body>
