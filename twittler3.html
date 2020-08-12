@@ -59,19 +59,25 @@
 
         <form id="input">
             <br/>
-            <br/>
-            <h3>twittler</h3>
-            <br/>
-            <br/>
-            <ui>
-                <br/>
-                <a3>UserName</a3><br/>
+            <!--메인 타이틀(제목)-->
+            <div id='title'>Twittler</div>
+            <div><!--입력 디비전-->           
+                <div id="InputGroup"><br/>
+                  <div id="UserNameInput">
+                  <div>UserName</div>
                 <input type="text" name="UserName">
+                  </div>
                 <br/>
-                <a3>Comment</a3><br/>
-                <input type="text" name="Comment">
-                <button>tweet!</button>
-            </ui>
+                <div id="UserCommentInput">
+                <div>Comment</div>
+                <textarea type="text" name="Comment"></textarea>
+                <div>
+                  <button id = "submitString">tweet!</button>
+                </div>
+                </div>
+                </div>
+            </div>
+            
         </form>
         <!-- test by Ham-->
 
