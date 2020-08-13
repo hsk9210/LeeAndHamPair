@@ -42,3 +42,7 @@
   background-color: #D4EAF6;
   height: auto;
 }
+ul {
+  margin-block-start: 0px;
+  margin-block-end: 0px;
+}
